@@ -4,8 +4,86 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <h1>project template</h1>
+    <!-- favicon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./assets/favicon/site.webmanifest" />
+
+    <!-- styles -->
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/root.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/add-items.css" />
+    <link rel="stylesheet" href="./css/items-list.css" />
+    <link rel="stylesheet" href="./css/pink-gradient.css" />
+
+    <title>Items List</title>
   </head>
-  <body></body>
+  <body>
+    <!-- search an item -->
+    <header>
+      <h1 class="tille">Item Lister</h1>
+      <form class="search" data-search>
+        <input
+          type="text"
+          class="item-search"
+          placeholder="Serch items..."
+          data-search-input
+        />
+      </form>
+    </header>
+
+    <main>
+      <div class="items-container">
+        <!-- add an item -->
+        <div class="add-items">
+          <h2>Add items</h2>
+          <form class="input-items-form" data-new-item-form>
+            <input
+              type="text"
+              class="new-item-input"
+              data-new-item-input
+              placeholder="What is the item?"
+            />
+            <input
+              type="submit"
+              value="Add Item"
+              class="new-item-submit pink-gradient"
+            />
+          </form>
+        </div>
+        <!-- items list -->
+        <div class="items-list">
+          <h2>Items:</h2>
+          <ul data-items>
+            <!-- <li class="item">
+              <p class="item-content">First item hard-coded</p>
+              <button class="delete-btn pink-gradient">Delete</button>
+            </li>
+            <li class="item">
+              <p class="item-content">Second item hard-coded</p>
+              <button class="delete-btn pink-gradient">Delete</button>
+            </li> -->
+          </ul>
+        </div>
+      </div>
+    </main>
+
+    <script defer src="../js/index.js"></script>
+  </body>
 </html>
