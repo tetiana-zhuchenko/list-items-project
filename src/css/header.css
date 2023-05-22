@@ -5,7 +5,7 @@ header {
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
-  align-items: end;
+  align-items: flex-end;
 }
 .tille {
   font-weight: 100;

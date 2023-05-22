@@ -1,3 +1,10 @@
+require('../css/reset.css');
+require('../css/root.css');
+require('../css/items-list.css');
+require('../css/header.css');
+require('../css/add-items.css');
+require('../css/pink-gradient.css');
+
 const itemContainer = document.querySelector('[data-items]');
 const newItemsForm = document.querySelector('[data-new-item-form]');
 const newItemInput = document.querySelector('[data-new-item-input]');
