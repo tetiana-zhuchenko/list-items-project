@@ -1,7 +1,7 @@
 module.exports = {
-  title: 'Webpack Vanilla JS — Template',
+  title: 'Item List Management App',
   description:
-    'Start a Vanilla JavaScript App, SPA, landing page or website using Webpack, Babel, Core-JS, SASS / SCSS, Tailwind CSS and much more, in just 30 seconds.',
+    'The Item List Management App is a web-based tool that allows users to easily manage a list of items. Key features include: add, delete and search items',
   keywords:
-    'javascript, js, vanilla-javascript, vanilla-js, template, boilerplate, webpack, babel, tailwind, tailwindcss, sass, scss, css, github'
+    'item-list, item-list-management-app, javascript, js, vanilla-javascript, vanilla-js, template, boilerplate, webpack, babel, tailwind, tailwindcss, sass, scss, css, github'
 };
